@@ -260,6 +260,8 @@ app-text/mupdf X
 #Japanese
 app-text/texlive cjk xetex
 app-text/texlive-core cjk xetex
+app-i18n/mozc emacs ibus
+media-fonts/kochi-substitute X
 >=sys-apps/dbus-1.12.16 X
 
 #OBS
