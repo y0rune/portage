@@ -1,0 +1,3 @@
+dev-haskell/*::gentoo 
+sys-apps/flatpak::guru
+net-im/discord-bin::earshark
