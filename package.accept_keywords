@@ -1,9 +1,3 @@
-#www-client/firefox -~amd64
-#dev-qt/* -~amd64
-#media-libs/mesa -~amd64
 sys-apps/openrc -~amd64
-net-misc/megacmd **
+net-misc/tigervnc -~amd64
 net-misc/streamlink **
-media-tv/kodi **
-media-libs/kodi-platform **
-media-plugins/kodi-pvr-iptvsimple **

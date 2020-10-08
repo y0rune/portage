@@ -1,3 +1,6 @@
+#vim
+app-editors/vim python
+
 sys-kernel/gentoo-sources experimental
 x11-misc/compton python_targets_python3_6
 >=dev-libs/libpcre2-10.34 pcre16
@@ -48,6 +51,10 @@ sys-devel/gcc pgo
 >=gnome-extra/nm-applet-1.8.24 gtk
 >=virtual/rust-1.45.1 abi_x86_32
 >=dev-lang/rust-1.45.1 abi_x86_32
+
+# QEMU
+app-emulation/qemu  nfs spice ssh vnc QEMU_SOFTMMU_TARGETS: x86_64 QEMU_USER_TARGETS: x86_64
+
 #KODI
 >=dev-libs/boost-1.72.0 abi_x86_32
 >=net-libs/nghttp2-1.40.0 abi_x86_32
@@ -264,9 +271,6 @@ app-i18n/mozc emacs ibus
 media-fonts/kochi-substitute X
 >=sys-apps/dbus-1.12.16 X
 
-#OBS
-media-video/obs-studio alsa pulseaudio
-
 #Audacity
 media-sound/audacity alsa ffmpeg
 >=media-libs/portaudio-19.06.00-r2 alsa
@@ -292,7 +296,7 @@ net-vpn/networkmanager-openvpn gtk
 >=media-libs/gegl-0.4.20 cairo
 
 #Firefox
-www-client/firefox pulseaudio startup-notification -clang -system-libvpx
+www-client/firefox hwaccel openh264 pulseaudio startup-notification -clang -system-libvpx
 >=media-libs/libpng-1.6.37 apng
 >=dev-db/sqlite-3.30.1 secure-delete
 
@@ -303,10 +307,9 @@ media-libs/gst-plugins-base alsa
 >=sys-libs/libunwind-1.3.1 abi_x86_32
 media-video/ffmpeg alsa pulseaudio
 
-#Bitcoin
->=sys-libs/db-4.8.30-r3:4.8 cxx
-net-p2p/bitcoin-qt asm qrcode system-leveldb wallet test
+# Fonts
 
+media-fonts/terminus-font X
 media-fonts/joypixels X
 media-libs/freetype X png
 media-fonts/fontawesome X ttf otf
@@ -314,10 +317,6 @@ media-fonts/roboto X
 
 #Discord-purple
 >=media-gfx/imagemagick-7.0.10.9 png svg jpeg
-
-#Qemu
-app-emulation/qemu ssh qemu_softmmu_targets_x86_64 qemu_user_targets_x86_64
-app-admin/gkrellm X
 
 #DNS
 net-dns/getdns stubby
@@ -328,5 +327,8 @@ net-dns/getdns stubby
 #libva
 >=x11-libs/libva-2.8.0 X
 
-#vim
-app-editors/vim python
+# Freerdp
+net-misc/freerdp X alsa pulseaudio
+
+# MPV
+media-video/mpv cuda
