@@ -296,7 +296,7 @@ net-vpn/networkmanager-openvpn gtk
 >=media-libs/gegl-0.4.20 cairo
 
 #Firefox
-www-client/firefox hwaccel openh264 pulseaudio startup-notification -clang -system-libvpx
+www-client/firefox hwaccel openh264 pulseaudio startup-notification -system-libvpx
 >=media-libs/libpng-1.6.37 apng
 >=dev-db/sqlite-3.30.1 secure-delete
 
