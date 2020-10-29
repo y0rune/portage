@@ -332,3 +332,8 @@ net-misc/freerdp X alsa pulseaudio
 
 # MPV
 media-video/mpv cuda
+
+# NEOVIM
+>=dev-lua/lpeg-1.0.2 luajit
+>=dev-lua/luv-1.32.0.0 luajit
+>=dev-lua/mpack-1.0.4 luajit
