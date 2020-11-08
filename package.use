@@ -337,3 +337,9 @@ media-video/mpv cuda
 >=dev-lua/lpeg-1.0.2 luajit
 >=dev-lua/luv-1.32.0.0 luajit
 >=dev-lua/mpack-1.0.4 luajit
+
+# gkrellm
+app-admin/gkrellm X
+
+#OpenJDK
+dev-java/openjdk-bin gentoo-vm

@@ -1,2 +1,5 @@
 dev-haskell/*::gentoo
 sys-apps/flatpak::guru
+>=virtual/jdk-15
+>=virtual/jre-15
+>=dev-java/openjdk-bin-15_p36
