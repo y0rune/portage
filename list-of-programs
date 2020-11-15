@@ -297,6 +297,7 @@ dev-perl/PadWalker
 dev-perl/Params-Util
 dev-perl/Params-ValidationCompiler
 dev-perl/Perl-Tidy
+dev-perl/Proc-ProcessTable
 dev-perl/Ref-Util
 dev-perl/Ref-Util-XS
 dev-perl/Role-Tiny
@@ -448,6 +449,7 @@ dev-util/itstool
 dev-util/meson
 dev-util/netsurf-buildsystem
 dev-util/ninja
+dev-util/patchutils
 dev-util/pkgconf
 dev-util/ragel
 dev-util/re2c
