@@ -38,6 +38,7 @@ app-arch/cpio
 app-arch/gzip
 app-arch/libarchive
 app-arch/rpm2targz
+app-arch/snappy
 app-arch/tar
 app-arch/unzip
 app-arch/xz-utils
@@ -53,8 +54,8 @@ app-crypt/openpgp-keys-gentoo-release
 app-crypt/p11-kit
 app-crypt/pinentry
 app-crypt/rhash
+app-doc/doxygen
 app-doc/xmltoman
-app-editors/emacs
 app-editors/neovim
 app-editors/vim
 app-editors/vim-core
@@ -115,6 +116,7 @@ app-text/build-docbook-catalog
 app-text/docbook-xml-dtd
 app-text/docbook-xsl-ns-stylesheets
 app-text/docbook-xsl-stylesheets
+app-text/dos2unix
 app-text/dvipsk
 app-text/ghostscript-gpl
 app-text/iso-codes
@@ -163,6 +165,7 @@ dev-lang/swig
 dev-lang/tcl
 dev-lang/tk
 dev-lang/vala
+dev-lang/yasm
 dev-libs/appstream-glib
 dev-libs/atk
 dev-libs/boost
@@ -229,11 +232,14 @@ dev-libs/openssl
 dev-libs/popt
 dev-libs/protobuf
 dev-libs/ptexenc
+dev-libs/quazip
+dev-libs/re2
 dev-libs/stfl
 dev-libs/tinyxml
 dev-libs/tinyxml2
 dev-libs/unibilium
 dev-libs/vala-common
+dev-libs/wayland
 dev-libs/zziplib
 dev-lua/lpeg
 dev-lua/luv
@@ -259,8 +265,11 @@ dev-perl/Exception-Class
 dev-perl/ExtUtils-Config
 dev-perl/ExtUtils-Helpers
 dev-perl/ExtUtils-InstallPaths
+dev-perl/File-BaseDir
+dev-perl/File-DesktopEntry
 dev-perl/File-HomeDir
 dev-perl/File-Listing
+dev-perl/File-MimeInfo
 dev-perl/File-Which
 dev-perl/HTML-Parser
 dev-perl/HTML-Tagset
@@ -273,6 +282,7 @@ dev-perl/IO-HTML
 dev-perl/IO-Socket-INET6
 dev-perl/IO-Socket-SSL
 dev-perl/IO-stringy
+dev-perl/IPC-System-Simple
 dev-perl/libwww-perl
 dev-perl/Locale-gettext
 dev-perl/Log-Dispatch
@@ -393,10 +403,17 @@ dev-qt/qtchooser
 dev-qt/qtconcurrent
 dev-qt/qtcore
 dev-qt/qtdbus
+dev-qt/qtdeclarative
 dev-qt/qtgui
+dev-qt/qtimageformats
 dev-qt/qtnetwork
+dev-qt/qtpositioning
+dev-qt/qtprintsupport
+dev-qt/qtsql
 dev-qt/qtsvg
 dev-qt/qttest
+dev-qt/qtwebchannel
+dev-qt/qtwebsockets
 dev-qt/qtwidgets
 dev-qt/qtx11extras
 dev-qt/qtxml
@@ -421,14 +438,19 @@ dev-ruby/xmlrpc
 dev-tex/bibtexu
 dev-tex/latex-beamer
 dev-texlive/texlive-basic
+dev-texlive/texlive-bibtexextra
+dev-texlive/texlive-context
+dev-texlive/texlive-fontsextra
 dev-texlive/texlive-fontsrecommended
 dev-texlive/texlive-fontutils
 dev-texlive/texlive-langcjk
+dev-texlive/texlive-langpolish
 dev-texlive/texlive-latex
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-latexrecommended
 dev-texlive/texlive-luatex
 dev-texlive/texlive-mathscience
+dev-texlive/texlive-metapost
 dev-texlive/texlive-pictures
 dev-texlive/texlive-plaingeneric
 dev-texlive/texlive-pstricks
@@ -440,6 +462,7 @@ dev-util/cmake
 dev-util/colm
 dev-util/desktop-file-utils
 dev-util/gdbus-codegen
+dev-util/glib-utils
 dev-util/gperf
 dev-util/gtk-doc-am
 dev-util/gtk-update-icon-cache
@@ -449,6 +472,7 @@ dev-util/itstool
 dev-util/meson
 dev-util/netsurf-buildsystem
 dev-util/ninja
+dev-util/patchelf
 dev-util/patchutils
 dev-util/pkgconf
 dev-util/ragel
@@ -512,8 +536,10 @@ media-libs/libmypaint
 media-libs/libnsgif
 media-libs/libogg
 media-libs/libpng
+media-libs/libraw
 media-libs/libsndfile
 media-libs/libvorbis
+media-libs/libvpx
 media-libs/libwebp
 media-libs/libzen
 media-libs/mesa
@@ -524,6 +550,7 @@ media-libs/speexdsp
 media-libs/tiff
 media-libs/webrtc-audio-processing
 media-libs/x264
+media-libs/x265
 media-plugins/alsa-plugins
 media-sound/cmus
 media-sound/lame
@@ -561,6 +588,7 @@ net-libs/libpsl
 net-libs/libqmi
 net-libs/libslirp
 net-libs/libsoup
+net-libs/libsrtp
 net-libs/libssh
 net-libs/libssh2
 net-libs/libtirpc
@@ -576,6 +604,7 @@ net-misc/freerdp
 net-misc/iputils
 net-misc/megacmd
 net-misc/meganz-sdk
+net-misc/megasync
 net-misc/mobile-broadband-provider-info
 net-misc/modemmanager
 net-misc/netifrc
@@ -703,7 +732,10 @@ sys-libs/gdbm
 sys-libs/glibc
 sys-libs/libcap
 sys-libs/libcap-ng
+sys-libs/libcxx
+sys-libs/libcxxabi
 sys-libs/libseccomp
+sys-libs/libunwind
 sys-libs/mtdev
 sys-libs/ncurses
 sys-libs/pam
@@ -877,6 +909,7 @@ x11-libs/xcb-util-renderutil
 x11-libs/xcb-util-wm
 x11-libs/xtrans
 x11-misc/arandr
+x11-misc/compose-tables
 x11-misc/compton
 x11-misc/dunst
 x11-misc/imake
@@ -887,6 +920,7 @@ x11-misc/xautolock
 x11-misc/xbitmaps
 x11-misc/xclip
 x11-misc/xdg-user-dirs
+x11-misc/xdg-utils
 x11-misc/xkeyboard-config
 x11-misc/xorg-cf-files
 x11-misc/xss-lock

@@ -1,3 +1,4 @@
 sys-apps/openrc -~amd64
 net-misc/tigervnc -~amd64
+mail-client/neomutt -~amd64
 net-misc/streamlink **

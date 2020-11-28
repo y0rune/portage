@@ -12,7 +12,6 @@ net-wireless/wpa_supplicant dbus
 >=x11-libs/libX11-1.6.9 abi_x86_32
 >=x11-libs/libXext-1.3.4 abi_x86_32
 >=x11-libs/libvdpau-1.3 abi_x86_32
->=sys-libs/zlib-1.2.11-r2 abi_x86_32
 >=x11-libs/cairo-1.16.0-r3 X
 >=x11-libs/libxcb-1.13.1 abi_x86_32
 >=virtual/pkgconfig-1 abi_x86_32
@@ -33,7 +32,7 @@ net-wireless/wpa_supplicant dbus
 >=dev-cpp/gtkmm-3.24.2 X
 >=x11-libs/cairo-1.16.0-r3 X
 >=net-misc/meganz-sdk-3.6.5 qt libuv mediainfo
-net-misc/megasync -qt5
+net-misc/megasync -qt5 threads
 >=x11-libs/libxkbcommon-0.9.1 X
 media-sound/teamspeak-client alsa pulseaudio
 >=dev-qt/qtgui-5.13.2 dbus accessibility
@@ -41,7 +40,7 @@ media-sound/teamspeak-client alsa pulseaudio
 >=dev-qt/qtwebchannel-5.13.2 qml
 >=dev-libs/libxml2-2.9.9-r2 icu
 >=media-libs/libvpx-1.8.1 svc
->=sys-libs/zlib-1.2.11-r2 minizip
+>=sys-libs/zlib-1.2.11-r2 minizip abi_x86_32 static-libs
 >=virtual/libcrypt-1 abi_x86_32
 >=app-arch/zstd-1.4.4-r2 abi_x86_32
 media-sound/cmus alsa ffmpeg pulseaudio
@@ -305,7 +304,7 @@ app-shells/fzf tmux
 
 media-libs/gst-plugins-base alsa
 >=sys-libs/libunwind-1.3.1 abi_x86_32
-media-video/ffmpeg alsa pulseaudio
+media-video/ffmpeg alsa pulseaudio x265
 
 # Fonts
 
