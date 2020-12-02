@@ -56,6 +56,7 @@ app-crypt/pinentry
 app-crypt/rhash
 app-doc/doxygen
 app-doc/xmltoman
+app-editors/emacs
 app-editors/neovim
 app-editors/vim
 app-editors/vim-core
@@ -202,6 +203,7 @@ dev-libs/libgudev
 dev-libs/libinput
 dev-libs/libksba
 dev-libs/libltdl
+dev-libs/libmpack
 dev-libs/libnl
 dev-libs/libpcre
 dev-libs/libpcre2
@@ -678,6 +680,7 @@ sys-apps/usermode-utilities
 sys-apps/util-linux
 sys-apps/vbetool
 sys-apps/which
+sys-apps/yarn
 sys-auth/elogind
 sys-auth/libyubikey
 sys-auth/pambase
