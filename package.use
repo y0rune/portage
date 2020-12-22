@@ -344,7 +344,7 @@ app-admin/gkrellm X
 dev-java/openjdk-bin gentoo-vm
 
 # StreamLink
-net-misc/streamlink python_single_target_python3_7
+net-misc/streamlink python_single_target_python3_8
 
 # Unchanged python version
 >=dev-python/certifi-10001-r1 python_targets_python3_7
