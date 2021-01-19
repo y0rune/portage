@@ -110,8 +110,6 @@ app-misc/ranger
 app-misc/screen
 app-misc/tmux
 app-office/openoffice-bin
-app-pda/libplist
-app-pda/libusbmuxd
 app-portage/eix
 app-portage/elt-patches
 app-portage/gemato
@@ -135,7 +133,6 @@ app-text/docbook-xsl-stylesheets
 app-text/dos2unix
 app-text/dvipsk
 app-text/ghostscript-gpl
-app-text/gnome-doc-utils
 app-text/iso-codes
 app-text/lcdf-typetools
 app-text/libpaper
@@ -152,7 +149,6 @@ app-text/psutils
 app-text/qpdf
 app-text/rarian
 app-text/rman
-app-text/scrollkeeper-dtd
 app-text/sgml-common
 app-text/t1utils
 app-text/teckit
@@ -163,6 +159,7 @@ app-text/wgetpaste
 app-text/xmlto
 app-vim/gentoo-syntax
 dev-cpp/abseil-cpp
+dev-db/dbeaver-bin
 dev-db/sqlite
 dev-go/go-md2man
 dev-java/java-config
@@ -205,20 +202,17 @@ dev-libs/jsoncpp
 dev-libs/json-glib
 dev-libs/kpathsea
 dev-libs/libaio
-dev-libs/libappindicator
 dev-libs/libassuan
 dev-libs/libatomic_ops
 dev-libs/libbsd
 dev-libs/libconfig
 dev-libs/libdaemon
-dev-libs/libdbusmenu
 dev-libs/libevdev
 dev-libs/libevent
 dev-libs/libffi
 dev-libs/libgcrypt
 dev-libs/libgpg-error
 dev-libs/libgudev
-dev-libs/libindicator
 dev-libs/libinput
 dev-libs/libksba
 dev-libs/libltdl
@@ -472,7 +466,6 @@ dev-texlive/texlive-plaingeneric
 dev-texlive/texlive-pstricks
 dev-texlive/texlive-xetex
 dev-tex/pgf
-dev-util/android-tools
 dev-util/boost-build
 dev-util/ccache
 dev-util/cmake
@@ -858,6 +851,7 @@ virtual/yacc
 www-client/brave-bin
 www-client/firefox-bin
 www-client/lynx
+www-client/vivaldi
 x11-apps/bdftopcf
 x11-apps/iceauth
 x11-apps/mesa-progs
