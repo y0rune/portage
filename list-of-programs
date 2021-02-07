@@ -67,7 +67,6 @@ app-dicts/aspell-en
 app-dicts/aspell-pl
 app-doc/xmltoman
 app-editors/emacs
-app-editors/neovim
 app-editors/vim
 app-editors/vim-core
 app-editors/vscodium-bin
@@ -174,6 +173,7 @@ dev-lang/orc
 dev-lang/perl
 dev-lang/python
 dev-lang/python-exec
+dev-lang/python-exec-conf
 dev-lang/ruby
 dev-lang/rust
 dev-lang/spidermonkey
@@ -216,7 +216,6 @@ dev-libs/libgudev
 dev-libs/libinput
 dev-libs/libksba
 dev-libs/libltdl
-dev-libs/libmpack
 dev-libs/libnl
 dev-libs/libpcre
 dev-libs/libpcre2
@@ -224,13 +223,11 @@ dev-libs/libpipeline
 dev-libs/libpthread-stubs
 dev-libs/libsodium
 dev-libs/libtasn1
-dev-libs/libtermkey
 dev-libs/libtomcrypt
 dev-libs/libtommath
 dev-libs/libunistring
 dev-libs/libusb
 dev-libs/libuv
-dev-libs/libvterm
 dev-libs/libwacom
 dev-libs/libx86
 dev-libs/libxml2
@@ -239,7 +236,6 @@ dev-libs/libyaml
 dev-libs/lzo
 dev-libs/mpc
 dev-libs/mpfr
-dev-libs/msgpack
 dev-libs/nettle
 dev-libs/newt
 dev-libs/npth
@@ -254,13 +250,8 @@ dev-libs/ptexenc
 dev-libs/stfl
 dev-libs/tinyxml
 dev-libs/tinyxml2
-dev-libs/unibilium
 dev-libs/vala-common
 dev-libs/zziplib
-dev-lua/lpeg
-dev-lua/LuaBitOp
-dev-lua/luv
-dev-lua/mpack
 dev-perl/Authen-SASL
 dev-perl/B-Hooks-EndOfScope
 dev-perl/Class-Data-Inheritable
@@ -428,9 +419,6 @@ dev-ruby/did_you_mean
 dev-ruby/json
 dev-ruby/kpeg
 dev-ruby/minitest
-dev-ruby/msgpack
-dev-ruby/multi_json
-dev-ruby/neovim-ruby-client
 dev-ruby/net-telnet
 dev-ruby/notify
 dev-ruby/power_assert
@@ -492,11 +480,15 @@ dev-util/shadowman
 dev-util/shellcheck-bin
 dev-vcs/git
 dev-vcs/tig
+games-util/game-device-udev-rules
+games-util/steam-launcher
 gnome-base/dconf
 gnome-base/gnome-keyring
 gnome-base/gsettings-desktop-schemas
 gnome-base/librsvg
 gnome-extra/nm-applet
+gnome-extra/zenity
+gui-libs/display-manager-init
 gui-libs/libhandy
 lxde-base/lxappearance
 mail-client/neomutt
@@ -631,6 +623,7 @@ net-misc/rdesktop
 net-misc/rsync
 net-misc/spice-gtk
 net-misc/streamlink
+net-misc/telnet-bsd
 net-misc/tigervnc
 net-misc/wget
 net-misc/youtube-dl
@@ -684,6 +677,7 @@ sys-apps/openrc
 sys-apps/opentmpfiles
 sys-apps/pciutils
 sys-apps/portage
+sys-apps/ripgrep
 sys-apps/sandbox
 sys-apps/sed
 sys-apps/shadow

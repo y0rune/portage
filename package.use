@@ -68,6 +68,7 @@ app-emulation/qemu  nfs spice ssh vnc QEMU_SOFTMMU_TARGETS: x86_64 QEMU_USER_TAR
 media-tv/kodi webserver pulseaudio alsa
 
 #steam
+games-util/game-device-udev-rules acl elogind
 app-arch/bzip2 abi_x86_32
 dev-db/sqlite abi_x86_32
 dev-libs/atk abi_x86_32
@@ -212,8 +213,8 @@ media-libs/libtheora abi_x86_32
 x11-libs/libXv abi_x86_32
 media-plugins/gst-plugins-cdparanoia abi_x86_32
 media-sound/cdparanoia abi_x86_32
-virtual/libusb abi_x86_32
-dev-libs/libusb abi_x86_32
+virtual/libusb udev abi_x86_32
+dev-libs/libusb udev abi_x86_32
 virtual/libgudev abi_x86_32
 dev-libs/libgudev abi_x86_32
 dev-libs/libusb-compat abi_x86_32
