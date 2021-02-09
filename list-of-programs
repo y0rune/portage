@@ -5,6 +5,7 @@ acct-group/docker
 acct-group/gkrellmd
 acct-group/input
 acct-group/kvm
+acct-group/ldap
 acct-group/lp
 acct-group/lpadmin
 acct-group/mail
@@ -22,6 +23,7 @@ acct-group/video
 acct-user/avahi
 acct-user/bitlbee
 acct-user/gkrellmd
+acct-user/ldap
 acct-user/mail
 acct-user/man
 acct-user/messagebus
@@ -59,6 +61,7 @@ app-crypt/gpgme
 app-crypt/johntheripper
 app-crypt/libb2
 app-crypt/libsecret
+app-crypt/mit-krb5
 app-crypt/openpgp-keys-gentoo-release
 app-crypt/p11-kit
 app-crypt/pinentry
@@ -159,6 +162,7 @@ app-text/xmlto
 app-vim/gentoo-syntax
 dev-cpp/abseil-cpp
 dev-db/dbeaver-bin
+dev-db/lmdb
 dev-db/sqlite
 dev-go/go-md2man
 dev-java/java-config
@@ -181,9 +185,11 @@ dev-lang/swig
 dev-lang/tcl
 dev-lang/tk
 dev-lang/vala
+dev-lang/yasm
 dev-libs/appstream-glib
 dev-libs/atk
 dev-libs/boost
+dev-libs/check
 dev-libs/crypto++
 dev-libs/dbus-glib
 dev-libs/double-conversion
@@ -207,6 +213,7 @@ dev-libs/libatomic_ops
 dev-libs/libbsd
 dev-libs/libconfig
 dev-libs/libdaemon
+dev-libs/libev
 dev-libs/libevdev
 dev-libs/libevent
 dev-libs/libffi
@@ -228,6 +235,7 @@ dev-libs/libtommath
 dev-libs/libunistring
 dev-libs/libusb
 dev-libs/libuv
+dev-libs/libverto
 dev-libs/libwacom
 dev-libs/libx86
 dev-libs/libxml2
@@ -310,6 +318,7 @@ dev-perl/Package-Stash-XS
 dev-perl/PadWalker
 dev-perl/Params-Util
 dev-perl/Params-ValidationCompiler
+dev-perl/Parse-Yapp
 dev-perl/Perl-Tidy
 dev-perl/Pod-Parser
 dev-perl/Proc-ProcessTable
@@ -355,12 +364,15 @@ dev-python/dockerpty
 dev-python/docker-py
 dev-python/docopt
 dev-python/docutils
+dev-python/extras
+dev-python/fixtures
 dev-python/greenlet
 dev-python/idna
 dev-python/isodate
 dev-python/jinja
 dev-python/jsonpointer
 dev-python/jsonschema
+dev-python/linecache2
 dev-python/lxml
 dev-python/m2crypto
 dev-python/mako
@@ -368,6 +380,7 @@ dev-python/markupsafe
 dev-python/msgpack
 dev-python/namespace-zope
 dev-python/paramiko
+dev-python/pbr
 dev-python/pip
 dev-python/ply
 dev-python/pyasn1
@@ -384,6 +397,7 @@ dev-python/pyparsing
 dev-python/pyrsistent
 dev-python/PySocks
 dev-python/python-dotenv
+dev-python/python-mimeparse
 dev-python/pyyaml
 dev-python/regex
 dev-python/requests
@@ -394,7 +408,11 @@ dev-python/setuptools
 dev-python/setuptools_scm
 dev-python/six
 dev-python/strict-rfc3339
+dev-python/subunit
+dev-python/testtools
 dev-python/texttable
+dev-python/traceback2
+dev-python/unittest2
 dev-python/urllib3
 dev-python/wcwidth
 dev-python/webcolors
@@ -457,8 +475,10 @@ dev-tex/pgf
 dev-util/boost-build
 dev-util/ccache
 dev-util/cmake
+dev-util/cmocka
 dev-util/colm
 dev-util/cppcheck
+dev-util/cppunit
 dev-util/desktop-file-utils
 dev-util/gdbus-codegen
 dev-util/glib-utils
@@ -575,7 +595,9 @@ net-dns/libidn
 net-dns/libidn2
 net-dns/openresolv
 net-firewall/iptables
+net-fs/cifs-utils
 net-fs/libnfs
+net-fs/samba
 net-fs/sshfs
 net-im/bitlbee
 net-im/bitlbee-facebook
@@ -602,6 +624,7 @@ net-libs/libtirpc
 net-libs/libvncserver
 net-libs/nghttp2
 net-libs/nodejs
+net-libs/rpcsvc-proto
 net-mail/isync
 net-mail/mailbase
 net-misc/bridge-utils
@@ -627,6 +650,7 @@ net-misc/telnet-bsd
 net-misc/tigervnc
 net-misc/wget
 net-misc/youtube-dl
+net-nds/openldap
 net-news/newsboat
 net-print/cups
 net-print/cups-filters
@@ -666,6 +690,7 @@ sys-apps/install-xattr
 sys-apps/inxi
 sys-apps/iproute2
 sys-apps/kbd
+sys-apps/keyutils
 sys-apps/kmod
 sys-apps/less
 sys-apps/lm-sensors
@@ -741,15 +766,20 @@ sys-libs/e2fsprogs-libs
 sys-libs/efivar
 sys-libs/gdbm
 sys-libs/glibc
+sys-libs/ldb
 sys-libs/libcap
 sys-libs/libcap-ng
 sys-libs/libseccomp
+sys-libs/liburing
 sys-libs/mtdev
 sys-libs/ncurses
 sys-libs/ncurses-compat
 sys-libs/pam
 sys-libs/readline
 sys-libs/slang
+sys-libs/talloc
+sys-libs/tdb
+sys-libs/tevent
 sys-libs/timezone-data
 sys-libs/zlib
 sys-power/acpi
@@ -771,6 +801,7 @@ virtual/glu
 virtual/jdk
 virtual/jpeg
 virtual/jre
+virtual/krb5
 virtual/latex-base
 virtual/libc
 virtual/libcrypt
