@@ -385,3 +385,6 @@ dev-lang/ghc binary
 # Japanese
 app-i18n/mozc emacs gui ibus
 dev-libs/libdbusmenu gtk3
+
+# Keyboard
+dev-libs/libratbag elogind

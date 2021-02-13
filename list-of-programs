@@ -18,6 +18,7 @@ acct-group/polkitd
 acct-group/portage
 acct-group/render
 acct-group/sshd
+acct-group/transmission
 acct-group/utmp
 acct-group/video
 acct-user/avahi
@@ -32,6 +33,7 @@ acct-user/polkitd
 acct-user/portage
 acct-user/postmaster
 acct-user/sshd
+acct-user/transmission
 app-accessibility/at-spi2-atk
 app-accessibility/at-spi2-core
 app-admin/ccze
@@ -228,6 +230,7 @@ dev-libs/libpcre
 dev-libs/libpcre2
 dev-libs/libpipeline
 dev-libs/libpthread-stubs
+dev-libs/libratbag
 dev-libs/libsodium
 dev-libs/libtasn1
 dev-libs/libtomcrypt
@@ -397,6 +400,7 @@ dev-python/pyparsing
 dev-python/pyrsistent
 dev-python/PySocks
 dev-python/python-dotenv
+dev-python/python-evdev
 dev-python/python-mimeparse
 dev-python/pyyaml
 dev-python/regex
@@ -610,6 +614,7 @@ net-libs/libasyncns
 net-libs/liblockfile
 net-libs/libmbim
 net-libs/libmnl
+net-libs/libnatpmp
 net-libs/libndp
 net-libs/libnma
 net-libs/libnsl
@@ -622,6 +627,7 @@ net-libs/libsoup
 net-libs/libssh
 net-libs/libtirpc
 net-libs/libvncserver
+net-libs/miniupnpc
 net-libs/nghttp2
 net-libs/nodejs
 net-libs/rpcsvc-proto
@@ -652,6 +658,7 @@ net-misc/wget
 net-misc/youtube-dl
 net-nds/openldap
 net-news/newsboat
+net-p2p/transmission
 net-print/cups
 net-print/cups-filters
 net-print/hplip
@@ -694,6 +701,7 @@ sys-apps/keyutils
 sys-apps/kmod
 sys-apps/less
 sys-apps/lm-sensors
+sys-apps/lsb-release
 sys-apps/man-db
 sys-apps/man-pages
 sys-apps/man-pages-posix
