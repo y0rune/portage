@@ -388,3 +388,6 @@ dev-libs/libdbusmenu gtk3
 
 # Keyboard
 dev-libs/libratbag elogind
+
+# Aria2
+net-misc/aria2 bittorrent

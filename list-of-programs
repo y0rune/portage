@@ -626,6 +626,7 @@ net-libs/libslirp
 net-libs/libsoup
 net-libs/libssh
 net-libs/libtirpc
+net-libs/libtorrent
 net-libs/libvncserver
 net-libs/miniupnpc
 net-libs/nghttp2
@@ -633,6 +634,7 @@ net-libs/nodejs
 net-libs/rpcsvc-proto
 net-mail/isync
 net-mail/mailbase
+net-misc/aria2
 net-misc/bridge-utils
 net-misc/curl
 net-misc/dhcpcd
