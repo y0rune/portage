@@ -353,7 +353,10 @@ dev-perl/Variable-Magic
 dev-perl/WWW-RobotRules
 dev-perl/XML-Parser
 dev-perl/YAML-Tiny
+dev-python/alabaster
 dev-python/attrs
+dev-python/Babel
+dev-python/backports-zoneinfo
 dev-python/bcrypt
 dev-python/cached-property
 dev-python/certifi
@@ -371,6 +374,7 @@ dev-python/extras
 dev-python/fixtures
 dev-python/greenlet
 dev-python/idna
+dev-python/imagesize
 dev-python/isodate
 dev-python/jinja
 dev-python/jsonpointer
@@ -381,7 +385,9 @@ dev-python/m2crypto
 dev-python/mako
 dev-python/markupsafe
 dev-python/msgpack
+dev-python/namespace-sphinxcontrib
 dev-python/namespace-zope
+dev-python/packaging
 dev-python/paramiko
 dev-python/pbr
 dev-python/pip
@@ -402,6 +408,7 @@ dev-python/PySocks
 dev-python/python-dotenv
 dev-python/python-evdev
 dev-python/python-mimeparse
+dev-python/pytz
 dev-python/pyyaml
 dev-python/regex
 dev-python/requests
@@ -411,6 +418,14 @@ dev-python/rfc3987
 dev-python/setuptools
 dev-python/setuptools_scm
 dev-python/six
+dev-python/snowballstemmer
+dev-python/sphinx
+dev-python/sphinxcontrib-applehelp
+dev-python/sphinxcontrib-devhelp
+dev-python/sphinxcontrib-htmlhelp
+dev-python/sphinxcontrib-jsmath
+dev-python/sphinxcontrib-qthelp
+dev-python/sphinxcontrib-serializinghtml
 dev-python/strict-rfc3339
 dev-python/subunit
 dev-python/testtools
@@ -477,6 +492,7 @@ dev-texlive/texlive-pstricks
 dev-texlive/texlive-xetex
 dev-tex/pgf
 dev-util/boost-build
+dev-util/cbindgen
 dev-util/ccache
 dev-util/cmake
 dev-util/cmocka
@@ -554,6 +570,7 @@ media-libs/harfbuzz
 media-libs/imlib2
 media-libs/jbig2dec
 media-libs/lcms
+media-libs/libaom
 media-libs/libass
 media-libs/libcanberra
 media-libs/libepoxy
@@ -572,6 +589,7 @@ media-libs/libwebp
 media-libs/libzen
 media-libs/mesa
 media-libs/nv-codec-headers
+media-libs/openh264
 media-libs/openjpeg
 media-libs/opus
 media-libs/speex
@@ -687,6 +705,7 @@ sys-apps/debianutils
 sys-apps/diffutils
 sys-apps/dmidecode
 sys-apps/dtc
+sys-apps/earlyoom
 sys-apps/ed
 sys-apps/file
 sys-apps/findutils
@@ -743,12 +762,16 @@ sys-devel/bc
 sys-devel/binutils
 sys-devel/binutils-config
 sys-devel/bison
+sys-devel/clang
+sys-devel/clang-common
+sys-devel/clang-runtime
 sys-devel/flex
 sys-devel/gcc
 sys-devel/gcc-config
 sys-devel/gettext
 sys-devel/gnuconfig
 sys-devel/libtool
+sys-devel/lld
 sys-devel/llvm
 sys-devel/llvm-common
 sys-devel/m4
@@ -772,6 +795,8 @@ sys-kernel/installkernel-gentoo
 sys-kernel/linux-firmware
 sys-kernel/linux-headers
 sys-libs/binutils-libs
+sys-libs/compiler-rt
+sys-libs/compiler-rt-sanitizers
 sys-libs/db
 sys-libs/e2fsprogs-libs
 sys-libs/efivar
@@ -780,6 +805,7 @@ sys-libs/glibc
 sys-libs/ldb
 sys-libs/libcap
 sys-libs/libcap-ng
+sys-libs/libomp
 sys-libs/libseccomp
 sys-libs/liburing
 sys-libs/mtdev
