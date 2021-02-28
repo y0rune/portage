@@ -13,6 +13,7 @@ acct-group/man
 acct-group/messagebus
 acct-group/netdev
 acct-group/openvpn
+acct-group/pcap
 acct-group/plugdev
 acct-group/polkitd
 acct-group/portage
@@ -284,8 +285,11 @@ dev-perl/Exception-Class
 dev-perl/ExtUtils-Config
 dev-perl/ExtUtils-Helpers
 dev-perl/ExtUtils-InstallPaths
+dev-perl/File-BaseDir
+dev-perl/File-DesktopEntry
 dev-perl/File-HomeDir
 dev-perl/File-Listing
+dev-perl/File-MimeInfo
 dev-perl/File-Which
 dev-perl/HTML-Parser
 dev-perl/HTML-Tagset
@@ -298,6 +302,7 @@ dev-perl/IO-HTML
 dev-perl/IO-Socket-INET6
 dev-perl/IO-Socket-SSL
 dev-perl/IO-stringy
+dev-perl/IPC-System-Simple
 dev-perl/libwww-perl
 dev-perl/Locale-gettext
 dev-perl/Log-Dispatch
@@ -444,7 +449,9 @@ dev-qt/qtcore
 dev-qt/qtdbus
 dev-qt/qtgui
 dev-qt/qtimageformats
+dev-qt/qtmultimedia
 dev-qt/qtnetwork
+dev-qt/qtprintsupport
 dev-qt/qtsvg
 dev-qt/qttest
 dev-qt/qtwidgets
@@ -609,6 +616,7 @@ media-video/mpv
 media-video/rtmpdump
 net-analyzer/hping
 net-analyzer/net-snmp
+net-analyzer/wireshark
 net-dialup/ppp
 net-dialup/ppp-scripts
 net-dns/avahi
@@ -666,7 +674,6 @@ net-misc/modemmanager
 net-misc/netifrc
 net-misc/networkmanager
 net-misc/openssh
-net-misc/postman-bin
 net-misc/rdate
 net-misc/rdesktop
 net-misc/rsync
@@ -911,6 +918,7 @@ virtual/ttf-fonts
 virtual/udev
 virtual/yacc
 www-client/brave-bin
+www-client/firefox
 www-client/firefox-bin
 www-client/lynx
 www-client/vivaldi
@@ -998,6 +1006,7 @@ x11-misc/xautolock
 x11-misc/xbitmaps
 x11-misc/xclip
 x11-misc/xdg-user-dirs
+x11-misc/xdg-utils
 x11-misc/xkeyboard-config
 x11-misc/xorg-cf-files
 x11-misc/xss-lock

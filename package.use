@@ -162,7 +162,7 @@ x11-proto/xproto abi_x86_32
 
 #XOrg
 >=media-libs/libglvnd-1.3.2 abi_x86_32 X
-x11-drivers/nvidia-drivers tools libglvnd
+x11-drivers/nvidia-drivers tools libglvnd static-libs libglvnd
 x11-base/xorg-server libglvnd
 
 #Wine
