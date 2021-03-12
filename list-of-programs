@@ -918,7 +918,6 @@ virtual/ttf-fonts
 virtual/udev
 virtual/yacc
 www-client/brave-bin
-www-client/firefox
 www-client/firefox-bin
 www-client/lynx
 www-client/vivaldi
