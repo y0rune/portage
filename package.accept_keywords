@@ -1,0 +1,11 @@
+sys-apps/openrc -~amd64
+net-misc/tigervnc -~amd64
+mail-client/neomutt -~amd64
+net-libs/nodejs -~amd64
+app-emulation/docker -~amd64
+app-emulation/docker-proxy -~amd64
+app-emulation/containerd -~amd64
+app-emulation/runc -~amd64
+dev-util/cppcheck -~amd64
+net-misc/streamlink **
+net-misc/youtube-dl **

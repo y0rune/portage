@@ -1,0 +1,4 @@
+dev-haskell/*::gentoo
+x11-drivers/nvidia-drivers::hossie
+net-misc/megasync::guru
+sys-apps/flatpak::guru

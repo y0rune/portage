@@ -1,0 +1,422 @@
+#vim
+app-editors/vim python
+
+# Emacs
+app-editors/emacs jpeg lcms png svg X gui gtk xft tiff libxml2
+app-emacs/emacs-common-gentoo X gui
+app-emacs/emacs-common gui
+
+app-emulation/docker cli
+
+media-gfx/gnome-screenshot X
+sys-kernel/gentoo-sources experimental
+>=dev-libs/libpcre2-10.34 pcre16
+>=sys-boot/grub-2.04-r1 device-mapper mount
+>=x11-libs/libxcb-1.13.1 xkb
+net-wireless/wpa_supplicant dbus
+>=x11-libs/gdk-pixbuf-2.40.0 X
+>=x11-libs/pango-1.42.4-r2 X
+>=x11-libs/libX11-1.6.9 abi_x86_32
+>=x11-libs/libXext-1.3.4 abi_x86_32
+>=x11-libs/libvdpau-1.3 abi_x86_32
+>=x11-libs/cairo-1.16.0-r3 X
+>=x11-libs/libxcb-1.13.1 abi_x86_32
+>=virtual/pkgconfig-1 abi_x86_32
+>=dev-util/pkgconf-1.6.3 abi_x86_32
+>=dev-libs/libpthread-stubs-0.4-r1 abi_x86_32
+>=x11-libs/libXau-1.0.9 abi_x86_32
+>=x11-libs/libXdmcp-1.1.3 abi_x86_32
+>=x11-base/xcb-proto-1.13 abi_x86_32
+>=media-plugins/alsa-plugins-1.2.1 pulseaudio
+>=media-libs/speexdsp-1.2.0 abi_x86_32
+>=dev-dotnet/libgdiplus-6.0.2 cairo
+>=app-text/ghostscript-gpl-9.50 cups
+>=app-text/xmlto-0.0.28-r1 text
+>=dev-libs/glib-2.60.7 dbus
+>=sys-auth/polkit-0.96-r1 elogind
+>=app-crypt/gcr-3.34.0 gtk
+>=dev-lang/python-2.7.17:2.7 sqlite
+>=app-crypt/pinentry-1.1.0-r3 gnome-keyring
+>=dev-cpp/gtkmm-3.24.2 X
+>=x11-libs/cairo-1.16.0-r3 X
+>=net-misc/meganz-sdk-3.6.5 qt libuv mediainfo
+net-misc/megasync threads python
+>=x11-libs/libxkbcommon-0.9.1 X
+media-sound/teamspeak-client alsa pulseaudio
+>=dev-qt/qtgui-5.13.2 dbus accessibility
+>=dev-qt/qtwebengine-5.13.2 widgets alsa pulseaudio geolocation
+>=dev-qt/qtwebchannel-5.13.2 qml
+>=dev-libs/libxml2-2.9.9-r2 icu
+>=media-libs/libvpx-1.8.1 svc
+>=sys-libs/zlib-1.2.11-r2 minizip abi_x86_32 static-libs
+>=virtual/libcrypt-1 abi_x86_32
+>=app-arch/zstd-1.4.4-r2 abi_x86_32
+media-sound/cmus alsa ffmpeg pulseaudio
+sys-devel/gcc graphite lto pgo
+
+# NM APPLET
+>=gnome-extra/nm-applet-1.8.24 gtk
+>=virtual/rust-1.45.1 abi_x86_32
+>=dev-lang/rust-1.45.1 abi_x86_32
+
+# QEMU
+app-emulation/qemu gtk nfs spice ssh vnc QEMU_SOFTMMU_TARGETS: x86_64 QEMU_USER_TARGETS: x86_64
+app-emulation/virt-manager gtk
+>=net-misc/spice-gtk-0.39 usbredir
+>=net-dns/dnsmasq-2.84-r101 script
+
+#KODI
+>=dev-libs/boost-1.72.0 abi_x86_32
+>=net-libs/nghttp2-1.40.0 abi_x86_32
+>=net-misc/curl-7.67.0-r1 http2
+>=media-video/ffmpeg-4.2.1 mp3 openssl X x264 dav1d vaapi
+media-tv/kodi webserver pulseaudio alsa
+
+#steam
+games-util/game-device-udev-rules acl elogind
+app-arch/bzip2 abi_x86_32
+dev-db/sqlite abi_x86_32
+dev-libs/atk abi_x86_32
+dev-libs/expat abi_x86_32
+dev-libs/fribidi abi_x86_32
+dev-libs/glib abi_x86_32
+dev-libs/gmp abi_x86_32
+dev-libs/icu abi_x86_32
+dev-libs/libcroco abi_x86_32
+dev-libs/libffi abi_x86_32
+dev-libs/libpcre abi_x86_32
+dev-libs/libpthread-stubs abi_x86_32
+dev-libs/libtasn1 abi_x86_32
+dev-libs/libunistring abi_x86_32
+dev-libs/libxml2 abi_x86_32
+dev-libs/lzo static-libs abi_x86_32
+dev-libs/nettle abi_x86_32
+dev-libs/nspr abi_x86_32
+dev-libs/nss abi_x86_32
+dev-libs/openssl abi_x86_32
+dev-libs/wayland abi_x86_32
+dev-util/pkgconfig abi_x86_32
+gnome-base/librsvg abi_x86_32
+media-gfx/graphite2 abi_x86_32
+media-libs/fontconfig abi_x86_32
+media-libs/freetype abi_x86_32
+media-libs/harfbuzz abi_x86_32
+media-libs/libpng abi_x86_32
+edia-libs/openal abi_x86_32
+media-libs/tiff abi_x86_32
+net-dns/libidn2 abi_x86_32
+net-libs/gnutls abi_x86_32
+net-misc/curl abi_x86_32
+net-nds/openldap abi_x86_32
+net-print/cups abi_x86_32
+sys-apps/attr abi_x86_32
+sys-apps/dbus abi_x86_32
+sys-apps/util-linux abi_x86_32
+sys-devel/gettext abi_x86_32
+sys-devel/llvm abi_x86_32
+sys-libs/binutils-libs abi_x86_32
+sys-fs/eudev abi_x86_32
+>=virtual/libintl-0-r2 abi_x86_32
+sys-libs/gpm abi_x86_32
+sys-libs/ncurses abi_x86_32
+sys-libs/readline abi_x86_32
+sys-libs/zlib abi_x86_32
+virtual/libffi abi_x86_32
+virtual/libiconv abi_x86_32
+virtual/libudev abi_x86_32
+virtual/pkgconfig abi_x86_32
+x11-libs/cairo abi_x86_32
+x11-libs/gdk-pixbuf abi_x86_32
+x11-libs/gtk+:2 abi_x86_32
+x11-libs/libX11 abi_x86_32
+x11-libs/libXScrnSaver abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libXcomposite abi_x86_32
+x11-libs/libXcursor abi_x86_32
+x11-libs/libXdamage abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libXfixes abi_x86_32
+x11-libs/libXft abi_x86_32
+x11-libs/libXi abi_x86_32
+x11-libs/libXinerama abi_x86_32
+x11-libs/libXrandr abi_x86_32
+x11-libs/libXrender abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
+x11-libs/libdrm abi_x86_32
+x11-libs/libpciaccess abi_x86_32
+>=dev-libs/libxml2-2.9.9-r2 python
+x11-libs/libxcb abi_x86_32
+x11-libs/libxshmfence abi_x86_32
+x11-libs/pango abi_x86_32
+x11-libs/pixman abi_x86_32
+x11-proto/damageproto abi_x86_32
+x11-proto/dri2proto abi_x86_32
+x11-proto/dri3proto abi_x86_32
+x11-proto/fixesproto abi_x86_32
+x11-proto/glproto abi_x86_32
+x11-proto/inputproto abi_x86_32
+x11-proto/kbproto abi_x86_32
+x11-proto/presentproto abi_x86_32
+x11-base/xcb-proto abi_x86_32
+x11-proto/xextproto abi_x86_32
+x11-proto/xf86bigfontproto abi_x86_32
+x11-proto/xf86driproto abi_x86_32
+x11-proto/xf86vidmodeproto abi_x86_32
+x11-proto/xproto abi_x86_32
+
+#XOrg
+>=media-libs/libglvnd-1.3.2 abi_x86_32 X
+x11-drivers/nvidia-drivers tools libglvnd static-libs libglvnd
+x11-base/xorg-server libglvnd
+
+#Wine
+>=sys-auth/pambase-20200618 elogind
+media-libs/mesa libglvnd abi_x86_32 vulcan vulcan-overlay
+app-emulation/winetricks rar
+media-libs/vulkan-loader X layers
+media-libs/vulkan-layers X
+media-libs/gstreamer abi_x86_32
+media-plugins/gst-plugins-meta abi_x86_32
+media-libs/lcms abi_x86_32
+media-sound/mpg123 abi_x86_32
+dev-libs/libxslt abi_x86_32
+app-emulation/wine-gecko abi_x86_32
+dev-libs/libgcrypt static-libs abi_x86_32
+dev-libs/libgpg-error static-libs abi_x86_32
+media-libs/gst-plugins-base abi_x86_32
+media-libs/gst-plugins-good abi_x86_32
+media-plugins/gst-plugins-a52dec abi_x86_32
+media-plugins/gst-plugins-faad abi_x86_32
+media-plugins/gst-plugins-dts abi_x86_32
+media-libs/gst-plugins-ugly abi_x86_32
+media-plugins/gst-plugins-dvdread abi_x86_32
+media-plugins/gst-plugins-mpeg2dec abi_x86_32
+media-plugins/gst-plugins-resindvd abi_x86_32
+media-plugins/gst-plugins-flac abi_x86_32
+media-plugins/gst-plugins-mpg123 abi_x86_32
+media-plugins/gst-plugins-pulse abi_x86_32
+media-plugins/gst-plugins-x264 abi_x86_32
+media-libs/x264 abi_x86_32
+media-libs/libdvdnav abi_x86_32
+media-libs/libdvdread abi_x86_32
+media-libs/gst-plugins-bad abi_x86_32
+media-plugins/gst-plugins-gtk abi_x86_32
+dev-lang/orc abi_x86_32
+x11-libs/gtk+ cups abi_x86_32
+media-libs/libepoxy abi_x86_32
+x11-misc/colord abi_x86_32
+app-accessibility/at-spi2-atk abi_x86_32
+app-accessibility/at-spi2-core abi_x86_32
+dev-libs/libgusb abi_x86_32
+media-libs/libdvdcss abi_x86_32
+media-libs/libmpeg2 abi_x86_32
+media-libs/libdca abi_x86_32
+media-libs/faad2 abi_x86_32
+media-libs/a52dec abi_x86_32
+media-libs/libtheora abi_x86_32
+x11-libs/libXv abi_x86_32
+media-plugins/gst-plugins-cdparanoia abi_x86_32
+media-sound/cdparanoia abi_x86_32
+virtual/libusb udev abi_x86_32
+dev-libs/libusb udev abi_x86_32
+virtual/libgudev abi_x86_32
+dev-libs/libgudev abi_x86_32
+dev-libs/libusb-compat abi_x86_32
+virtual/glu abi_x86_32
+media-libs/glu abi_x86_32
+app-emulation/wine-staging vulkan abi_x86_32 pulseaudio alsa
+media-libs/alsa-lib abi_x86_32
+>=media-libs/libsdl2-2.0.10 abi_x86_32
+>=media-libs/vulkan-loader-1.1.125 abi_x86_32
+>=media-libs/vulkan-layers-1.1.125-r2 abi_x86_32
+>=dev-util/glslang-7.12.3353_pre20191027-r2 abi_x86_32
+>=dev-util/spirv-tools-2019.10_pre20191027-r1 abi_x86_32
+
+#LUTRIS
+>=media-libs/libjpeg-turbo-2.0.3 abi_x86_32
+>=virtual/opengl-7.0-r2 abi_x86_32
+>=virtual/jpeg-0-r3 abi_x86_32
+>=sys-libs/cracklib-2.9.7 abi_x86_32
+>=sys-libs/db-6.0.35-r2 abi_x86_32
+>=sys-libs/pam-1.3.1-r1 abi_x86_32
+>=sys-libs/libcap-2.28-r1 abi_x86_32
+>=media-libs/graphene-1.8.6 abi_x86_32
+>=media-libs/libvorbis-1.3.6-r1 abi_x86_32
+>=media-libs/libogg-1.3.4 abi_x86_32
+>=media-libs/harfbuzz-2.6.4 icu
+>=dev-lang/python-3.7.7-r2:3.7 sqlite
+dev-lang/python sqlite
+
+#LATEX
+>=media-libs/gd-2.2.5-r2 png
+
+#Ruby
+>=dev-ruby/did_you_mean-1.3.1 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/minitest-5.13.0 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/net-telnet-0.2.0 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/power_assert-1.1.5 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/rake-13.0.1 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/test-unit-3.3.4 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/xmlrpc-0.3.0 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/bundler-2.1.2 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/json-2.3.0 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/rdoc-6.2.0 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/kpeg-1.1.0-r1 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/racc-1.4.14 ruby_targets_ruby27 ruby_targets_ruby30
+>=virtual/rubygems-15-r99 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/rubygems-3.0.6 ruby_targets_ruby27 ruby_targets_ruby30
+>=virtual/ruby-ssl-11 ruby_targets_ruby27 ruby_targets_ruby30
+>=dev-ruby/rbs-1.2.0 ruby_targets_ruby30
+>=dev-cpp/abseil-cpp-20200923.2 cxx17
+
+app-admin/keepassxc yubikey autotype
+app-text/mupdf X
+
+#ADB
+>=dev-java/swt-3.7.2-r2:3.7 cairo
+>=sys-libs/ncurses-compat-6.1_p20190609 abi_x86_32
+
+#Japanese
+app-text/texlive cjk xetex
+app-text/texlive-core cjk xetex
+app-i18n/mozc emacs ibus
+media-fonts/kochi-substitute X
+>=sys-apps/dbus-1.12.16 X
+
+#Audacity
+media-sound/audacity alsa ffmpeg
+>=media-libs/portaudio-19.06.00-r2 alsa
+
+#Wine
+>=media-sound/pulseaudio-13.0 abi_x86_32
+>=media-libs/libsndfile-1.0.29_pre2_p20191024 abi_x86_32
+>=x11-libs/libSM-1.2.3 abi_x86_32
+>=x11-libs/libICE-1.0.10 abi_x86_32
+>=x11-libs/libXtst-1.2.3-r1 abi_x86_32
+>=sys-apps/tcp-wrappers-7.6.28 abi_x86_32
+>=net-libs/libasyncns-0.8-r4 abi_x86_32
+>=media-plugins/alsa-plugins-1.2.1 abi_x86_32
+>=media-libs/flac-1.3.3 abi_x86_32
+>=media-libs/opus-1.3.1-r1 abi_x86_32
+
+#VPN
+net-vpn/openvpn passwordsave example
+net-vpn/networkmanager-openvpn gtk
+
+#Gimp
+>=app-text/poppler-0.84.0 cairo
+>=media-libs/gegl-0.4.20 cairo
+
+#Firefox
+www-client/firefox hwaccel openh264 pulseaudio startup-notification -system-libvpx
+>=media-libs/speex-1.2.0-r2 abi_x86_32
+>=media-libs/libpng-1.6.37 apng
+>=dev-db/sqlite-3.30.1 secure-delete
+
+#FZF
+app-shells/fzf tmux
+
+media-libs/gst-plugins-base alsa
+>=sys-libs/libunwind-1.3.1 abi_x86_32
+media-video/ffmpeg alsa pulseaudio x265
+
+# Fonts
+
+media-fonts/terminus-font X
+media-fonts/joypixels X
+media-libs/freetype X png
+media-fonts/fontawesome X ttf otf
+media-fonts/roboto X
+media-fonts/nerd-fonts X firacode
+
+#Discord-purple
+>=media-gfx/imagemagick-7.0.10.9 png svg xml jpeg
+
+#DNS
+net-dns/getdns stubby
+
+#OpenRC
+>=x11-libs/libdrm-2.4.102 libkms
+
+#libva
+>=x11-libs/libva-2.8.0 X
+
+# Freerdp
+net-misc/freerdp X alsa pulseaudio
+
+# MPV
+media-video/mpv cuda vaapi
+
+# NEOVIM
+>=dev-lua/lpeg-1.0.2 luajit
+>=dev-lua/luv-1.32.0.0 luajit
+>=dev-lua/mpack-1.0.4 luajit
+
+# gkrellm
+app-admin/gkrellm X
+
+# LibreOffice
+>=dev-libs/xmlsec-1.2.30 nss
+
+#OpenJDK
+dev-java/openjdk-bin gentoo-vm
+
+# StreamLink
+net-misc/streamlink python_single_target_python3_9
+
+# Haskell
+dev-lang/ghc binary
+
+>=dev-python/PyQt5-5.15.2 gui widgets
+
+# Japanese
+app-i18n/mozc emacs gui ibus
+dev-libs/libdbusmenu gtk3
+
+# Keyboard
+dev-libs/libratbag elogind
+
+# Aria2
+net-misc/aria2 bittorrent
+
+# Firefox
+dev-lang/spidermonkey clang
+
+# Opera
+www-client/opera widevine
+
+# VirtualBox
+media-libs/libsdl X
+
+#VMWare
+media-plugins/alsa-plugins speex
+app-emulation/vmware-workstation doc macos-guests vmware-tools-darwin vmware-tools-darwinPre15 vmware-tools-linux vmware-tools-netware vmware-tools-windows
+
+# Notebook
+>=net-libs/zeromq-4.3.4-r1 drafts
+
+# Anki
+>=dev-python/PyQt5-5.15.2 svg webchannel printsupport network
+
+# Chrome
+>=dev-util/wayland-scanner-1.19.0 abi_x86_32
+
+# TigerVnc
+net-misc/tigervnc xinerama
+
+# GentooLTO
+sys-config/ltoize clang
+
+# Quassel
+net-irc/quassel X -server monolithic
+>=dev-db/sqlite-3.35.4 -secure-delete
+
+# Neomutt
+mail-client/neomutt notmuch ssl
+
+# HP
+net-dns/avahi python
+
+#BB
+>=sys-libs/db-4.8.30-r6:4.8 cxx

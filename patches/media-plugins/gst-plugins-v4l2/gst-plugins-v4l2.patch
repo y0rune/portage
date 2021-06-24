@@ -1,0 +1,13 @@
+diff --git a/sys/v4l2/Makefile.in b/sys/v4l2/Makefile.in
+index 048ee8e..eb62bbc 100644
+--- a/sys/v4l2/Makefile.in
++++ b/sys/v4l2/Makefile.in
+@@ -669,7 +669,7 @@ top_build_prefix = @top_build_prefix@
+ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+ plugin_LTLIBRARIES = libgstvideo4linux2.la
+-enum_headers = $(foreach h,$(glib_enum_headers),\n\#include \"$(h)\")
++enum_headers = $(foreach h,$(glib_enum_headers),\n#include \"$(h)\")
+ libgstvideo4linux2_la_SOURCES = gstv4l2.c \
+ 				gstv4l2allocator.c \
+ 				gstv4l2colorbalance.c \
