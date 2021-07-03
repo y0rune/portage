@@ -199,6 +199,7 @@ dev-libs/crypto++
 dev-libs/dbus-glib
 dev-libs/double-conversion
 dev-libs/elfutils
+dev-libs/ell
 dev-libs/expat
 dev-libs/fribidi
 dev-libs/glib
@@ -230,6 +231,7 @@ dev-libs/libffi
 dev-libs/libgcrypt
 dev-libs/libgpg-error
 dev-libs/libgudev
+dev-libs/libical
 dev-libs/libinput
 dev-libs/libixion
 dev-libs/libksba
@@ -710,6 +712,7 @@ net-print/cups
 net-print/cups-filters
 net-print/hplip
 net-vpn/wireguard-tools
+net-wireless/bluez
 net-wireless/crda
 net-wireless/wireless-regdb
 net-wireless/wpa_supplicant
@@ -910,6 +913,7 @@ virtual/pkgconfig
 virtual/python-cffi
 virtual/resolvconf
 virtual/rust
+virtual/secret-service
 virtual/service-manager
 virtual/ssh
 virtual/tex-base
