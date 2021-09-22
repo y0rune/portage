@@ -50,6 +50,7 @@ media-sound/teamspeak-client alsa pulseaudio
 >=media-libs/libvpx-1.8.1 svc
 >=sys-libs/zlib-1.2.11-r2 minizip abi_x86_32 static-libs
 >=virtual/libcrypt-1 abi_x86_32
+>=sys-libs/libxcrypt-4.4.23-r1 abi_x86_32
 >=app-arch/zstd-1.4.4-r2 abi_x86_32
 media-sound/cmus alsa ffmpeg pulseaudio
 sys-devel/gcc graphite lto pgo
@@ -99,7 +100,7 @@ dev-util/pkgconfig abi_x86_32
 gnome-base/librsvg abi_x86_32
 media-gfx/graphite2 abi_x86_32
 media-libs/fontconfig abi_x86_32
-media-libs/freetype abi_x86_32
+media-libs/freetype harfbuzz abi_x86_32
 media-libs/harfbuzz abi_x86_32
 media-libs/libpng abi_x86_32
 edia-libs/openal abi_x86_32
@@ -420,3 +421,6 @@ net-dns/avahi python
 
 #BB
 >=sys-libs/db-4.8.30-r6:4.8 cxx
+
+# Ungoogled-chrome
+>=net-libs/nodejs-14.17.5-r1 inspector
