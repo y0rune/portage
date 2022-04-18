@@ -8,6 +8,11 @@ app-emacs/emacs-common gui
 
 app-emulation/docker cli
 
+>=app-crypt/libmd-1.0.4 abi_x86_32
+>=dev-libs/libbsd-0.11.5 abi_x86_32
+
+
+>=sys-libs/glibc-2.34-r4 -clone3
 media-gfx/gnome-screenshot X
 sys-kernel/gentoo-sources experimental
 >=dev-libs/libpcre2-10.34 pcre16
@@ -314,6 +319,7 @@ www-client/firefox hwaccel openh264 pulseaudio startup-notification -system-libv
 >=media-libs/speex-1.2.0-r2 abi_x86_32
 >=media-libs/libpng-1.6.37 apng
 >=dev-db/sqlite-3.30.1 secure-delete
+>=media-sound/lame-3.100-r3 abi_x86_32
 
 #FZF
 app-shells/fzf tmux
@@ -332,7 +338,8 @@ media-fonts/roboto X
 media-fonts/nerd-fonts X firacode
 
 #Discord-purple
->=media-gfx/imagemagick-7.0.10.9 png svg xml jpeg
+>=media-gfx/imagemagick-7.0.10.9 tiff png svg xml jpeg
+>=virtual/imagemagick-tools-0 tiff jpeg
 
 #DNS
 net-dns/getdns stubby
@@ -424,3 +431,6 @@ net-dns/avahi python
 
 # Ungoogled-chrome
 >=net-libs/nodejs-14.17.5-r1 inspector
+
+# T2
+app-shells/bash plugins
